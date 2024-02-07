@@ -7,6 +7,8 @@ import Heading from "./components/Heading";
 import Oscar from "./components/Oscar";
 import Button from "./components/Button";
 import { Container } from "./components/Container";
+import User from "./components/state/User";
+import Counter from "./components/state/Counter";
 
 function App() {
   const personName = {
@@ -50,6 +52,8 @@ function App() {
             padding: "1rem",
           }}
         />
+        <User />
+        <Counter />
       </div>
     </>
   );
